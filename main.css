@@ -1,0 +1,10 @@
+#ryu {
+    display: inline-block;
+    float: left;
+}
+
+.demo-hadouken {
+    vertical-align: top;
+    margin-top: 55px;
+    margin-left: -55px;
+}
