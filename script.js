@@ -23,5 +23,4 @@ $(document).ready(function() {
     $('#ryu > img').mousedown(function() {
         $('#ryu').append('<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif" alt="Hadouken">');
     });
-
 });
