@@ -14,5 +14,8 @@ $(document).ready(function() {
 
     // when a user clicks, change Ryu's stance
     // url: http://i.imgur.com/Rfj0a80.png
+    $('#ryu > img').mousedown(function() {
+        this.src = 'http://i.imgur.com/Rfj0a80.png';
+    });
 
 });
