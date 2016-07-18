@@ -14,13 +14,16 @@ $(document).ready(function() {
 
     // when a user clicks, change Ryu's stance
     // url: http://i.imgur.com/Rfj0a80.png
-    $('#ryu > img').mousedown(function() {
+    $('#ryu > img').on('mousedown', function() {
         this.src = 'http://i.imgur.com/Rfj0a80.png';
     });
 
     // add the Hadouken!
     // url: http://i.imgur.com/oTyQRvX.gif
-    $('#ryu > img').mousedown(function() {
+    $('#ryu > img').on('mousedown', function() {
         $('#ryu').append('<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif" alt="Hadouken">');
     });
+
+    // animate that Hadouken
+
 });
