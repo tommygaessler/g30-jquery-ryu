@@ -25,5 +25,14 @@ $(document).ready(function() {
     });
 
     // animate that Hadouken
+    $('#ryu > img').on('mousedown', function() {
+        $('.demo-hadouken').animate({
+            "margin-left": "600px"
+        }, 1000, 'swing', function() {
+            this.remove();
+        });
+    });
+
+    // let Ryu relax
 
 });
