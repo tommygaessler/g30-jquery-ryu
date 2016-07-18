@@ -18,4 +18,12 @@ $(document).ready(function() {
         this.src = 'http://i.imgur.com/Rfj0a80.png';
     });
 
+    // add the Hadouken!
+    // url: http://i.imgur.com/oTyQRvX.gif
+
+    // animate that Hadouken
+
+    // let Ryu relax
+    // url: http://i.imgur.com/90Mmdcm.png
+
 });
