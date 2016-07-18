@@ -18,6 +18,11 @@ $(document).ready(function() {
         this.src = 'http://i.imgur.com/Rfj0a80.png';
     });
 
+    // ruin the fun and remove last Hadouken from the page
+    $('#ryu > img').on('mousedown', function() {
+        $('.demo-hadouken').remove();
+    });
+
     // add the Hadouken!
     // url: http://i.imgur.com/oTyQRvX.gif
     $('#ryu > img').on('mousedown', function() {
