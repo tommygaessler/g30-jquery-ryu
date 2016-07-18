@@ -10,4 +10,12 @@ $(document).ready(function() {
     // when a user clicks, change Ryu's stance
     // url: http://i.imgur.com/Rfj0a80.png
 
+    // add the Hadouken!
+    // url: http://i.imgur.com/oTyQRvX.gif
+
+    // animate that Hadouken
+
+    // let Ryu relax
+    // url: http://i.imgur.com/90Mmdcm.png
+
 });
