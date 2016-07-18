@@ -34,5 +34,9 @@ $(document).ready(function() {
     });
 
     // let Ryu relax
+    // url: http://i.imgur.com/90Mmdcm.png
+    $('#ryu img').on('mouseup', function() {
+        this.src = 'http://i.imgur.com/90Mmdcm.png';
+    });
 
 });
